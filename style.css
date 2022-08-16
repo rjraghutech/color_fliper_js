@@ -79,14 +79,26 @@ a {
     font-size: medium;
 }
 
+a:hover {
+    text-decoration: underline;
+    font-size: large;
+}
+
 .flip-btn {
     background-color: blueviolet;
     color: aliceblue;
     font-weight: bolder;
     height: 32px;
-    width: 100px;
+    width: 120px;
     border: 3px solid black;
     border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.flip-btn:hover {
+    width: 130px;
+    height: 38px;
 }
 
 .main-cont {
